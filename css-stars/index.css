@@ -40,6 +40,26 @@ body {
   transform: rotate(-75deg);
 }
 
+.star--small {
+  border-bottom: 3.5px solid #e6e6ff;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+
+.star--small:before {
+  left: -4.45px;
+  border-bottom: 3.5px solid #e6e6ff;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+
+.star--small:after {
+  left: -5.25px;
+  border-bottom: 3.5px solid #e6e6ff;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+
 .star__container-1 {
   position: absolute;
   top: 50px;
@@ -78,7 +98,7 @@ body {
 
 .star__container-7 {
   position: absolute;
-  top: 190px;
-  left: 645px;
+  top: 183px;
+  left: 640px;
 }
 
