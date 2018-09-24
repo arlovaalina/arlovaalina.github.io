@@ -60,6 +60,13 @@ body {
   border-right: 5px solid transparent;
 }
 
+.point {
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
 .star__container-1 {
   position: absolute;
   top: 50px;
